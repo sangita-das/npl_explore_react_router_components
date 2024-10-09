@@ -1,0 +1,16 @@
+{
+    "emmet.includeLanguages": {
+        "html": "html",
+        "vue-html": "html",
+        "razor": "html",
+        "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "html.suggest.html5": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.snippetSuggestions": "top"
+}
