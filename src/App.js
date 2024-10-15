@@ -8,6 +8,8 @@ import Header from './Header/Header';
 import Counter from './Counter';
 import Team from './Team';
 import Users from './Users';
+import Watches from './Watches/Watches';
+import Bottles from './Components/Bottles/Bottles';
 // import Friends from './Friends';
 
 
@@ -32,11 +34,13 @@ function App() {
     <button onClick={() => addToFive(3)}>Click4</button>
     <br />
     <br />
-    <Team></Team>
+    <Watches></Watches>
+    <Bottles></Bottles>
+    {/* <Team></Team> */}
     <br />
-    <Users></Users>
+    {/* <Users></Users> */}
 
-    <Counter></Counter>
+    {/* <Counter></Counter> */}
     <br />
     <br />
     {/* <Friends></Friends> */}
